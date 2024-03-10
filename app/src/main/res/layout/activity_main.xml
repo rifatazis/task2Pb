@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#696969"
+        android:gravity="center"
+        android:text="Fun Shop"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="italic" />
+
+    <TableLayout
+        android:id="@+id/tLaptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F3F3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            android:src="@drawable/laptops" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center"
+                android:background="#D5CECE"
+                android:text="LAPTOP" />
+    </TableLayout>
+
+
+    <TableLayout
+        android:id="@+id/tPrinter"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F3F3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:src="@drawable/printersss" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:background="#D5CECE"
+            android:text="PRINTER" />
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tAccessoris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="#F6F3F3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:src="@drawable/accessories" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#D5CECE"
+            android:gravity="center"
+            android:text="ACCESORIS" />
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

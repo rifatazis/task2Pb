@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".PrinterActivity"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#979595"
+        >
+
+        <TableLayout
+            android:layout_marginTop="527dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_marginTop="37dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#696969"
+                android:gravity="center"
+                android:text="Jajan"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="italic" />
+
+            <TableRow
+                android:id="@+id/printer1"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/printer1" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="HP Ink Tank 315
+                                  A4 Color Inkjet Printer
+                                  Print, Scan and Copy
+                                  Print speed up to 8 ppm" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/printer2"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/printer2" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="HP Smart Tank 585
+                                  A4 Colour Smart Tank
+                                  Print, copy, scan
+                                  Print speed up to 12 ppm"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/printer3"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/printer3" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="HP Laser 107a
+                                  A4 Black and White Laser Printer
+                                  Print only
+                                  PPrint speed up to 21 ppm"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/printer4"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/printer4" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="HP Color Laser
+                                  A4 Color Laser Printer
+                                  Print only
+                                  Print speed up to 19 ppm
+                                  USB, Ethernet, Wi-F" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/printer5"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/printer5" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="HP Smart Tank 720
+                                  A4 Color Inkjet Printer
+                                  Print, Scan, Copy and...
+                                  Print speed up to 15 ppm
+                                  Extremely low cost-per-page" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

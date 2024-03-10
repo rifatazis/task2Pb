@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".LaptopActivity"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#979595"
+        >
+
+        <TableLayout
+            android:layout_marginTop="527dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_marginTop="37dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#696969"
+                android:gravity="center"
+                android:text="Jajan"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="italic" />
+
+            <TableRow
+                android:id="@+id/laptop1"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/laptop1" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text=" HP Victus 16 inch
+                                  AMD Ryzen 5 7640HS
+                                  Windows 11 Home Single Language
+                                  16 DDR5 RAM
+                                  512 GB SSD Hard Drive" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/laptop2"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/laptop2" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text=" OMEN Transcend 16-u
+                                  Intel Core i9-13900HX
+                                  Windows 11 Home Single Language
+                                  32 DDR5 RAM
+                                  1 TB SSD Hard Drive"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/laptop3"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/laptop3" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text=" HP Pavilion Plus
+                                  AMD Ryzen™ 5 7540U
+                                  Windows 11 Home Single Language
+                                  16 GB LPDDR5x RAM
+                                  512 GB SSD Hard drive"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/laptop4"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/laptop4" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text=" HP 14 inch
+                                  intel Core i5-1155G7
+                                  Windows 11 Home Single Language
+                                  8 GB DDR4 RAM
+                                  512 GB SSD Hard drive" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/laptop5"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/laptop5" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text=" HP Spectre 13.5 inch
+                                  Intel Core i7-1355U
+                                  Windows 11 Home Single Language
+                                  32 GB LPDDR4x RAM
+                                  2 TB SSD Hard drive" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

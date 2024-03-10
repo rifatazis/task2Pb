@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".AccesorisActivity"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#979595"
+        >
+
+        <TableLayout
+            android:layout_marginTop="527dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvData"
+                android:layout_marginTop="37dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#696969"
+                android:gravity="center"
+                android:text="Jajan"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="italic" />
+
+            <TableRow
+                android:id="@+id/aksesoris1"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/aksesoris1" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="HyperX Cloud II Wireless
+                                  2.4GHz Wireless
+                                  DTS Headphone:X[3]
+                                  Signature HyperX Comfort" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/aksesoris2"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/aksesoris2" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="Poly Voyager Free 60 UC
+                                  With adjustable hybrid adaptive ANC
+                                  Three microphones
+                                  WindSmart technology
+                                  Connect up to two Bluetooth®"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/aksesoris3"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/aksesoris3" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text=" HP USB-C G5
+                                 122 x 122 x 45 mm
+                                 0.68 kg"/>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/aksesoris4"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/aksesoris4" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="HP 150 Wireless Mouse
+                                  Wireless. Precise. Comfortable
+                                  With a 2.4 GHz
+                                  Elegant ergonomic design
+                                  With a 1,600 DPI optical sensor" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/aksesoris5"
+                android:layout_margin="20dp"
+                android:background="#474747">
+
+                <ImageView
+                    android:background="#CACACA"
+                    android:layout_width="218dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="2dp"
+                    android:src="@drawable/aksesoris5" />
+
+                <TextView
+                    android:background="#CACACA"
+                    android:layout_width="145dp"
+                    android:layout_height="201dp"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:text="HP 330 Wireless Mouse and Keyboard
+                                  Sleek and silent
+                                  Quiet is just your type
+                                  12 Fn shortcuts
+                                  Dimensions 42.6 x 14.6 x 2.7 cm" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
